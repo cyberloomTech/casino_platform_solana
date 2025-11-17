@@ -150,7 +150,3 @@ We promote responsible gambling:
 - Cool-down periods
 - Loss limits
 - Self-exclusion options
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
