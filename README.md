@@ -1,35 +1,6 @@
 # 🎰 Solana Casino Platform 🚀
 A next-generation, fully decentralized casino platform built on Solana blockchain with enterprise-grade architecture, comprehensive testing, and production-ready infrastructure. Transform any Solana token into a fully-featured casino ecosystem with advanced gaming features, real-time analytics, and institutional-grade security.
 
-![Solana Casino Platform](https://raw.githubusercontent.com/AP3X-Dev/Solana-Casino/refs/heads/main/public/slots.png)
-
-## 🆕 Latest Updates (v1.3.2)
-
-### 🚀 Aggressive Dashboard Cleanup (v1.3.2)
-- **ELIMINATED Flash Issue**: Completely removed the marketing page that was causing flash on refresh
-- **Streamlined Dashboard**: Always shows the actual dashboard with stats and games
-- **Massive Code Reduction**: Reduced Dashboard component from 200+ lines to 50 lines (75% smaller)
-- **Better User Experience**: Direct access to Ultra games without unnecessary marketing content
-
-### 🧹 Code Cleanup & Flash Prevention (v1.3.1)
-- **Removed Old Components**: Cleaned up legacy game components that were causing flash on refresh
-- **Optimized React Rendering**: Removed StrictMode to prevent double renders and improve performance
-- **Flash Prevention**: Added CSS rules to prevent white flash on page load
-- **Codebase Streamlining**: Removed 6 unused files and cleaned up imports for better maintainability
-
-### 🎯 Critical Navigation Fix (v1.3.0)
-- **Fixed Navigation Overlay Issue**: Resolved critical bug where navigation overlay was blocking game card clicks
-- **Enhanced Z-Index Management**: Implemented proper layering hierarchy for all UI components
-- **Improved Clickability**: Game cards are now fully interactive with proper pointer events
-- **Better Spacing**: Added proper padding to account for fixed navigation header
-
-### 🎮 Previous Enhancements (v1.2.0)
-- **Enhanced Game Animations**: Completely redesigned animations for all games, especially the Slots game
-- **Improved Visual Design**: Better button styling, contrast, and visual feedback
-- **Sound Effects**: Added immersive sound effects to the Slots game
-- **Wallet Integration**: Simplified wallet integration with Phantom
-- **Performance Improvements**: Better loading times and smoother animations
-
 ## 🚀 Key Features
 
 ### 🎮 Provably Fair Games
@@ -39,23 +10,11 @@ A next-generation, fully decentralized casino platform built on Solana blockchai
 - **Chat Roulette**: Community-driven gambling in Telegram groups (coming soon)
 - All games use SHA256-based provably fair algorithms with client and server seed verification
 
-### 🪙 Token Integration
+### 💸 Token Integration
 - **Universal Compatibility**: Support for any SPL token
 - **Custom Liquidity Pools**: Set initial liquidity and betting limits
 - **Dynamic Multipliers**: Automatically adjusted based on pool size
 - **Treasury Management**: Built-in tools for managing house funds
-
-### 🤖 Telegram Integration
-- **In-Chat Gaming**: Play directly in your community's Telegram group
-- **Wallet Commands**: Check balances and deposit/withdraw tokens
-- **Leaderboards**: Track top players and biggest wins
-- **Automated Payouts**: Instant settlements for winning bets
-
-### 💎 Token Creator Features
-- **Custom Branding**: Personalize your casino's look and feel
-- **Risk Management**: Set house edge and exposure limits
-- **Analytics Dashboard**: Track volume, players, and profits
-- **Community Tools**: Engage players with rewards and tournaments
 
 ## 🎲 Game Mechanics
 
@@ -79,12 +38,6 @@ A next-generation, fully decentralized casino platform built on Solana blockchai
 - Sound effects for spinning, reel stops, and wins
 - Jackpot celebration effects with confetti and flashing lights
 - Detailed payout table and game history
-
-### Chat Roulette (Coming Soon)
-- Community-based betting pools
-- Multiple betting options
-- Live result animations in chat
-- Social gambling experience
 
 ## 🛠️ Technical Implementation
 
@@ -190,21 +143,6 @@ npm run build
 - Micro-interactions for improved user feedback
 - Consistent design language across all games
 
-## 🤝 Community Integration
-
-- Custom Telegram bot for your community
-- Automated social media updates
-- Player rankings and achievements
-- Community rewards programs
-
-## 📞 Support & Resources
-
-- Documentation: [docs.solanacasino.com](https://docs.solanacasino.com)
-- Discord: [0xRust](https://discord.gg/548238300847144971)
-- Twitter: [@Manokil](https://x.com/0xManokil)
-- Telegram: [@Manokil](https://t.me/Rust0x_726)
-
-
 ## ⚠️ Responsible Gaming
 
 We promote responsible gambling:
@@ -216,19 +154,3 @@ We promote responsible gambling:
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Solana Foundation
-- Phantom Wallet team
-- Framer Motion for animation capabilities
-- Lucide React for beautiful icons
-- Our amazing community of developers
-- UI/UX contributors for design improvements
-- Sound designers for immersive audio effects
-- All our early adopters and testers
-
----
-
-Built with ❤️ by the AP3X
-Last updated: May 2025
